@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGoogle, faReact } from "@fortawesome/free-brands-svg-icons";
+import { faReact } from "@fortawesome/free-brands-svg-icons";
 import { faLaptopCode, faPlusSquare } from "@fortawesome/free-solid-svg-icons";
 
 const Services = () => {
@@ -12,7 +12,11 @@ const Services = () => {
           <div className="col-md-4 col-sm-4">
             <div className="box">
               <div className="circle">
-                <FontAwesomeIcon className="icon" icon={faLaptopCode} size="2x" />
+                <FontAwesomeIcon
+                  className="icon"
+                  icon={faLaptopCode}
+                  size="2x"
+                />
               </div>
               <h3>Languages</h3>
               <ul className="list-group">
