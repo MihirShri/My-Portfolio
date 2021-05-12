@@ -41,25 +41,6 @@ const Experience = () => {
           </div>
         </div>
         {/* - */}
-        <div className="timeline-block timeline-block-right">
-          <div className="marker"></div>
-          <div className="timeline-content">
-            <h3>May 2021 - Present</h3>
-            <h5>
-              <strong>
-                Software Developer Intern @ Zuperly
-              </strong>
-            </h5>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
-              omnis laboriosam odio deserunt reprehenderit optio cum ratione
-              sequi pariatur deleniti iste perspiciatis officiis minima iusto
-              hic, ipsa ea dicta velit! Quos, placeat ratione. Sunt cumque
-              delectus asperiores et quas qui.
-            </p>
-          </div>
-        </div>
-        {/* - */}
       </div>
     </div>
   );

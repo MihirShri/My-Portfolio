@@ -10,9 +10,9 @@ const Header = () => {
         <Typed
           className="typed-text"
           strings={[
-            "Software Developer",
-            "Web Developer",
-            "Full Stack Developer",
+            "50% Talented",
+            "50% Creative",
+            "100% Dedicated",
           ]}
           typeSpeed={40}
           backSpeed={60}
