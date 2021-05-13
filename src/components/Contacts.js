@@ -96,7 +96,7 @@ const Contacts = () => {
                   placeholder="Email"
                   name="email"
                   ref={register({
-                    required: "Please provide you email",
+                    required: "Please provide your email",
                     pattern: {
                       value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
                       message: "invalid Email",
@@ -116,7 +116,7 @@ const Contacts = () => {
                   placeholder="Subject"
                   name="subject"
                   ref={register({
-                    required: "OOPS, you forget to add the subject.",
+                    required: "OOPS, you forgot to add the subject.",
                   })}
                 />
                 <div className="line"></div>
@@ -131,10 +131,10 @@ const Contacts = () => {
                 <textarea
                   type="text"
                   className="form-control"
-                  placeholder="Please describe shortly you project..."
+                  placeholder="Please describe your project in brief..."
                   name="description"
                   ref={register({
-                    required: "Please describe shortly your project needs...",
+                    required: "Please describe your project in brief...",
                   })}
                 ></textarea>
                 <div className="line"></div>
